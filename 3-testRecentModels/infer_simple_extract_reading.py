@@ -95,7 +95,7 @@ def parse_args():
         '--output-ext',
         dest='output_ext',
         help='output image file format (default: pdf)',
-        default='pdf',
+        default='png',
         type=str
     )
     parser.add_argument(
