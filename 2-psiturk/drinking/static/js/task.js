@@ -79,10 +79,10 @@ var StroopExperiment = function() {
 
         // Start the test; initialize everything
         next();
-        document.getElementById("submittrial").addEventListener("click", mengmiClick);
+        document.getElementById("submittrial").addEventListener("click", clickFunction);
 
 
-        function mengmiClick()
+        function clickFunction()
         {
             var response = document.querySelector('input[name="categories"]:checked').value;
                 //var response = document.getElementById("response").value;
