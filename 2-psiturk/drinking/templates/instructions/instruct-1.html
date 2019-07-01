@@ -1,0 +1,46 @@
+<div id="container-instructions">
+
+	<h1>Instructions</h1>
+
+	<hr />
+
+	<div class="instructions well">
+	    <p>
+            You will be presented a fixation cross, then an image, then asked a question: is the person drinking or not? <br />
+            Answer by hitting one of the two buttons.  <br />
+            The duration of the image presentation may be random. <br />
+            There are ~ 750 images to classify (~ 40 min in total)          
+        </p>
+
+	    <script type="text/javascript">
+	    //console.log(psiTurk.getInstructionIndicator())
+	    </script>
+	</div>      
+    <br>
+
+    <div class="container">
+        <div class="row">
+          <div class="span4"></div>
+                <img class="col-xs-12 col-sm-8 image" src="{{ server_location }}/static/images/yes_pp12c.gif" alt="stimuli" style="width:256px;height:256px;"/>
+                
+                <div class="col-xs-12 col-sm-4 fields" id="workQuestion">
+
+                <input id="sit" name="categories" required="" type="radio" value="yes" />Drinking <br>
+                <input id="not-sit" name="categories" required="" type="radio" value="no" />Not Drinking <br>
+            
+                <div class="instructionsnav">        
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg pull-right continue">
+                    Next <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+                </div>
+
+                </div>
+          <div class="span4"></div>
+        </div>
+    </div>
+
+    
+
+	<hr />
+    
+</div>

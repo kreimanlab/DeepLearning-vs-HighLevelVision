@@ -1,0 +1,45 @@
+<div id="container-questionnaire">
+    <h1>Task Complete</h1>
+
+    <hr />
+
+    <p>You are finished!  Thank you for your contribution to science.</p>
+
+    <div class="instructions well">
+
+        <form id="postquiz" action="debrief" method="post">
+
+            <!-- beginning of a question -->
+            <div class="row question">
+                <div class="col-md-4">
+                    Any remark?
+                </div>
+                <div class="col-md-8">
+                    <input id="feedback" name="feedback" value="" required="" size="30" type="text" />
+                </div>
+            </div>
+            <!-- end of a question -->
+
+
+            
+        </form>
+    </div>
+
+    <hr />
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+            </div>
+            <div class="col-xs-7">
+            </div>
+            <div class="col-xs-3">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
+                    Continue <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
