@@ -14,4 +14,4 @@ Secondly, images are shown to human participants during a psychophysics experime
 
 #### 3 - high_level_models
 
-High-Level models, here, refer in particular to [Detectron](https://github.com/facebookresearch/Detectron) and Densereg. These models are the closest to an interpretation of the image since they extract the mask and coordinates of elements like a person, a book, a beverage.
+High-Level models, here, refer to [Detectron](https://github.com/facebookresearch/Detectron) and Densereg. These models are the closest to an interpretation of the image since they extract the mask and coordinates of elements like a person, a book, a beverage.
