@@ -2,7 +2,7 @@ For all of these Neural Nets, we use weights pretrained on ImageNet.
 
 # alexnet_finetune.m
 
-Finetuning means that the weight update is small (learning rate 10^{-4}). As offered by MatLab, the learning rate is multiplied by 20 on fc7.
+Finetuning means that the weight update is small (learning rate 10<sup>-4</sup>). As offered by MatLab, the learning rate is multiplied by 20 on fc7.
 
 # alexnet_svm.m
 
