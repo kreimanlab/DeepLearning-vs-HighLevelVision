@@ -1,5 +1,5 @@
 [HIT Configuration]
-title = Reading or Not (~35 min)
+title = Reading or Not (~25 min)
 description = Classify if the person in the image is reading or not.
 amt_keywords = image, tagging, captioning, psychology, labelling, label
 lifetime = 72

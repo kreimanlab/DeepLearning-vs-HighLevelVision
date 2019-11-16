@@ -1,5 +1,5 @@
 [HIT Configuration]
-title = Drinking or Not (~40 min)
+title = Drinking or Not (~35 min)
 description = Classify if the person in the image is drinking or not.
 amt_keywords = image, tagging, captioning, psychology, labelling, label
 lifetime = 72

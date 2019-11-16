@@ -1,5 +1,5 @@
 [HIT Configuration]
-title = Sitting or Not (~ 30 min)
+title = Sitting or Not (~ 10 min)
 description = Classify if the person in the image is sitting or not.
 amt_keywords = image, tagging, captioning, psychology, labelling, label
 lifetime = 72

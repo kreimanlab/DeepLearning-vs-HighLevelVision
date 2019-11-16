@@ -7,3 +7,4 @@ Participants are presented a gif consisting of a fixation cross during 500 ms, a
   <p>Layout of an example gif.</p>
 </div>
 
+The "drinking" experiment was the latest, it shows a progress bar along the experiment. This seems to be preferred by participants.

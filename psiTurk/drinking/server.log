@@ -5584,3 +5584,27 @@ Traceback (most recent call last):
   File "/Library/Python/2.7/site-packages/sqlalchemy/engine/default.py", line 324, in do_execute
     cursor.execute(statement, parameters)
 OperationalError: (OperationalError) database is locked u'UPDATE "tablechairDB" SET datastring=? WHERE "tablechairDB".uniqueid = ?' ('{"condition":0,"counterbalance":0,"assignmentId":"debugK8Q3A4","workerId":"debug9TJ4LI","hitId":"debugVCCYER","currenttrial":3,"bonus":0,"data":[{"uniqueid":"debug9TJ4LI:debugK8Q3A4","current_trial":0,"dateTime":1543868451222,"trialdata":{"phase":"INSTRUCTIONS","templates":["instructions/instruct-1.html","instructions/instruct-ready.html"],"action":"Begin"}},{"uniqueid":"debug9TJ4LI:debugK8Q3A4","current_trial":1,"dateTime":1543868451910,"trialdata":{"phase":"INSTRUCTIONS","template":"instructions/instruct-1.html","indexOf":0,"action":"NextPage","viewTime":685}},{"uniqueid":"debug9TJ4LI:debugK8Q3A4","current_trial":2,"dateTime":1543868452919,"trialdata":{"phase":"INSTRUCTIONS","template":"instructions/instruct-ready.html","indexOf":1,"action":"FinishInstructions","viewTime":1005}}],"questiondata":{},"eventdata":[{"eventtype":"initialized","value":null,"timestamp":1543868451161,"interval":0},{"eventtype":"window_resize","value":[1440,855],"timestamp":1543868451161,"interval":0}],"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15","mode":"debug"}', u'debug9TJ4LI:debugK8Q3A4')
+[2019-10-10 13:27:02,174] ERROR in experiment: hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3TK8OJTYM2623Z8BXY9GFJG459OPVJ'], 'workerId': [u'A3CQDCNYJAX2X3'], 'hitId': [u'3I01FDIL6MTIUR9QEDT9O16ERFX2D5'], 'mode': [u'live']}
+[2019-10-10 13:36:29 +0000] [31451] [CRITICAL] WORKER TIMEOUT (pid:31457)
+[2019-10-10 13:36:29,004] ERROR in experiment: api_server_not_reachable (1015) {'assignmentId': [u'3NQL1CS15STWCD0COL5ZSA9G9EVYVQ'], 'workerId': [u'A1F1BIPJR11LSR'], 'hitId': [u'3I01FDIL6MTIUR9QEDT9O16ERFX2D5'], 'mode': [u'live']}
+[2019-10-10 13:39:44,331] ERROR in experiment: hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3NQL1CS15STWCD0COL5ZSA9G9EVYVQ'], 'workerId': [u'A1F1BIPJR11LSR'], 'hitId': [u'3I01FDIL6MTIUR9QEDT9O16ERFX2D5'], 'mode': [u'live']}
+[2019-10-10 13:40:07 +0000] [31451] [CRITICAL] WORKER TIMEOUT (pid:31460)
+[2019-10-10 13:40:07,304] ERROR in experiment: api_server_not_reachable (1015) {'assignmentId': [u'3NQL1CS15STWCD0COL5ZSA9G9EVYVQ'], 'workerId': [u'A1F1BIPJR11LSR'], 'hitId': [u'3I01FDIL6MTIUR9QEDT9O16ERFX2D5'], 'mode': [u'live']}
+[2019-10-10 13:40:26 +0000] [31451] [CRITICAL] WORKER TIMEOUT (pid:31547)
+[2019-10-10 13:40:26,435] ERROR in experiment: api_server_not_reachable (1015) {'assignmentId': [u'3NQL1CS15STWCD0COL5ZSA9G9EVYVQ'], 'workerId': [u'A1F1BIPJR11LSR'], 'hitId': [u'3I01FDIL6MTIUR9QEDT9O16ERFX2D5'], 'mode': [u'live']}
+[2019-10-12 12:38:33,463] ERROR in experiment: hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3ATPCQ38J9VCKPXEDQE3WNV3OBNAY8'], 'workerId': [u'A8028AFBBS29G'], 'hitId': [u'3NFWQRSHVEZ575VT4Y9OE530DDSFGQ'], 'mode': [u'live']}
+[2019-10-12 16:46:42 +0000] [12120] [CRITICAL] WORKER TIMEOUT (pid:12129)
+[2019-10-12 16:46:42 +0000] [12120] [CRITICAL] WORKER TIMEOUT (pid:12125)
+[2019-10-13 12:43:51,722] ERROR in experiment: hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3GD6L00D3TIGWKV0Y4XZRRFTB861MQ'], 'workerId': [u'AZNIEFUIVB2H0'], 'hitId': [u'338431Z1FL0Q28H0JCMQ03QL7NZROP'], 'mode': [u'live']}
+[2019-10-13 12:43:51 +0000] [18721] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2019-10-13 12:44:44,219] ERROR in experiment: hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3GD6L00D3TIGWKV0Y4XZRRFTB861MQ'], 'workerId': [u'AZNIEFUIVB2H0'], 'hitId': [u'338431Z1FL0Q28H0JCMQ03QL7NZROP'], 'mode': [u'live']}

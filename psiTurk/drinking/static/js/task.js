@@ -46,7 +46,7 @@ var StroopExperiment = function() {
         psiTurk.recordUnstructuredData("mode", mode);
 
         var wordon; // time word is presented
-        const TotalNumImage = 778;
+        const TotalNumImage = 703;
         var task_idx = -1; // because of asynchronous js. d3.csv is executed after everything else in function() next.
         var img_name = "";
 
@@ -59,9 +59,11 @@ var StroopExperiment = function() {
                 task_idx = task_idx+1;
                 if (task_idx < TotalNumImage) {
                         //window.alert(task_idx);
-                        d3.csv("csv/s1gifDrinkFull-shuf.csv", function(data) {
+                        d3.csv("csv/struct2-shuf_part2.csv", function(data) {
                                 d3.select("#stim").html('<img src='+data[task_idx].image_url+' alt="stimuli" style="width:100%">');
-                                img_name = data[task_idx].image_url;
+                                d3.select("#ind").html(task_idx+1);
+				d3.select("#tot").html(TotalNumImage);
+				img_name = data[task_idx].image_url;
                         });
                         wordon = new Date().getTime();
                 }
@@ -79,10 +81,10 @@ var StroopExperiment = function() {
 
         // Start the test; initialize everything
         next();
-        document.getElementById("submittrial").addEventListener("click", clickFunction);
+        document.getElementById("submittrial").addEventListener("click", mengmiClick);
 
 
-        function clickFunction()
+        function mengmiClick()
         {
             var response = document.querySelector('input[name="categories"]:checked').value;
                 //var response = document.getElementById("response").value;
