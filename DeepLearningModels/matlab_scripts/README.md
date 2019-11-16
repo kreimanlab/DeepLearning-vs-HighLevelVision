@@ -13,3 +13,8 @@ Classifier is an SVM instead of SoftMax trained with SGD above.
 Cross-validation, with many iterations, is run on the dataset, every time attributing randomly images to either training or validation set. 
 At each iteration, we store the iteration number and prediction accuracy of each image in the validation set.
 The tables tabCountIter and tabCountMisclass, storing these values, are saved.
+
+
+# vgg16 scripts
+
+Scripts for vgg-16 fine-tuning, with SVM or SoftMax classifier
