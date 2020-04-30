@@ -1,0 +1,116 @@
+exit
+server on
+debug
+hit list
+server off
+mode
+exit
+server on
+debug
+exit
+y
+server on
+debug
+server on
+hit create 1 0.01 1
+hit list
+hit create 1 0.1 1
+hit create 1 0.05 1
+hit create 3 2.00 1.5
+mtc.get_account_balance()
+amt.get_account_balance()
+amt_balance
+hit create 1 0.1 1
+hit create 1 0.10 1
+hit list
+server off
+server on
+hit create 1 0.10 1
+server off
+server on
+hit create 1 0.10 1
+hit list
+server off
+exit
+debug
+server on
+debug
+server on
+debug
+server
+server on
+debug
+server on
+debug
+exit
+server on
+debug
+fex
+debug
+server on
+server log
+debug
+exit
+y
+server off
+exit()
+server on
+debug
+server off
+exit()
+server on
+server off
+exit
+hit expire --all
+hit create 1 0.01 0.5
+n
+server on
+hit create 1 0.01 0.5
+hit create 1 0.01 1
+hit expire --all
+server off
+exit
+server off
+server on
+hit expire --all
+hit create 1 0.01 1
+hit expire --all
+hit create 1 0.01 1
+hit expire --all
+hit create 1 0.01 1
+server off
+server on
+hit list
+server off
+server on
+hit expire --all
+exit
+server on
+hit create 1 0.2 1
+hit create 1 0.20 1
+server off
+server on
+server off
+exit
+<<<<<<< HEAD
+server on
+debug
+server on
+debug
+server on
+download_datafiles 
+debug
+server on
+debug
+download_datafiles 
+server on
+download_datafiles 
+hit expire --all
+hit dispose --all
+=======
+hit create 1 0.20 2
+amt_balance 
+download_datafiles 
+>>>>>>> 418ebf20cc3a442291f491754c7c750116ec9ce9
+exit
+y
