@@ -28,6 +28,7 @@ The ground truth labels for each image was created by asking 3 participants to a
 
 <div align="center">
   <img src="drink_1.gif" height="250px" />
+  <p>Example gif with 800ms image presentation, played on repeat.</p>
 </div>
 
 ## License
