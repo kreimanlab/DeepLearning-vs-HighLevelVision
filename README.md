@@ -38,10 +38,11 @@ We release our work under the Kreiman Lab's [license](http://klab.tch.harvard.ed
 ## Citation
 
 If you find our dataset useful in your research, please consider citing:
-@InProceedings{Jacquot_2020_CVPR,
-author = {Jacquot, Vincent and Ying, Zhuofan and Kreiman, Gabriel},
-title = {Can Deep Learning Recognize Subtle Human Activities?},
-booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2020}
-}
+
+	@InProceedings{Jacquot_2020_CVPR,
+	author = {Jacquot, Vincent and Ying, Zhuofan and Kreiman, Gabriel},
+	title = {Can Deep Learning Recognize Subtle Human Activities?},
+	booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+	month = {June},
+	year = {2020}
+	}
