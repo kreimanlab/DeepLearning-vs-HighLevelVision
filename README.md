@@ -1,4 +1,4 @@
-This repository contains the code and images used for the publication ["Can Deep Learning Recognize Subtle Human Activities?"](https://arxiv.org/abs/2003.13852).
+This repository contains the code and images used in <i>Jacquot et al., 2020</i> \[[arXiv,](https://arxiv.org/abs/2003.13852) [CVPR](https://openaccess.thecvf.com/content_CVPR_2020/html/Jacquot_Can_Deep_Learning_Recognize_Subtle_Human_Activities_CVPR_2020_paper.html)\]. There is a 1 minute [video presentation](https://www.youtube.com/watch?v=izLNH8WlVF0) of our work on youtube.
 
 ## Summary
 
